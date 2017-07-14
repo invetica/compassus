@@ -1,4 +1,4 @@
-(def +version+ "1.0.0-alpha3")
+(def +version+ "1.0.0-alpha3-SNAPSHOT")
 
 (set-env!
  :source-paths    #{"src/main"}
@@ -43,7 +43,7 @@
 (bootlaces! +version+ :dont-modify-paths? true)
 
 (task-options!
-  pom {:project 'compassus
+  pom {:project 'invetica/compassus
        :version +version+
        :description "A routing library for Om Next."
        :url "https://github.com/compassus/compassus"
